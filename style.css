@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contact {
+  width: 70%;
+  border: 1px solid #ddd;
+  margin: 20px auto;
+  padding: 5%;
+  text-align: center;
+}
+
+.contact h2 {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+.contact p {
+  color: #000;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  margin-top: 5px;
+}
+
+.contact form {
+  margin-top: 25px;
+}
+
+.child_form {
+  width: 100%;
+  margin-top: 15px;
+  text-align: left;
+}
+
+.child_form label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+.child_form:last-child {
+  margin-bottom: 0px;
+}
+
+.child_form input,
+textarea,
+select {
+  border: 1px solid#ddd;
+  border-radius: 5px;
+  padding: 10px 3%;
+  width: 94%;
+  outline: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.child_form select {
+  width: 100%;
+  height: 7%;
+  outline: 0;
+}
+
+.child_form input[type="button"] {
+  width: 200px;
+  cursor: pointer;
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+}
+
+.buttons {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: blueviolet;
+  color: #fff;
+}
+
+.buttons:hover {
+  color: black;
+  background: #fff;
+  transition: 0.3s;
+  border: 1px solid blueviolet;
+}
+
+.buttons:active {
+  color: green;
+  background: #ddd;
+}
